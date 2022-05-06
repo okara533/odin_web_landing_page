@@ -1,6 +1,8 @@
 *{
 
-    font-family:Verdana, Geneva, Tahoma, sans-serif 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin:0;
+    padding:0;
 }
 
 .first_container{
@@ -189,4 +191,14 @@ button:hover{
 .fourth_container_box_left_title{
     font-weight: 800;
     font-size: 18px;
+}
+
+.footer{
+    background-color: #232629;
+    color:#F9FAF8;
+    font-size: small;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
