@@ -137,17 +137,25 @@ button:hover{
 }
 
 .third_container{
-
+    display: flex;
+    justify-content: center;
     background-color: #888c91;
+    
+}
+
+.sub_third_container{
     padding: 100px;
     padding-left: 100px;
     padding-right: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .third_content{
-    font-size: 48px;
+    font-size: 32   px;
     display: flex;
     justify-content: flex-start;
+    font-style: italic;
 }
 
 .third_sign{
@@ -155,4 +163,30 @@ button:hover{
     font-weight: 600;
     display: flex;
     justify-content: flex-end;
+}
+.fourth_container_box{
+    margin:200px;
+    padding: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    flex-direction: row;
+    background-color: #6293e1;
+    color: #F9FAF8;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.fourth_container_box_right{
+    border: 2px solid #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+}
+
+
+.fourth_container_box_left_title{
+    font-weight: 800;
+    font-size: 18px;
 }
